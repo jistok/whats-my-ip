@@ -1,0 +1,7 @@
+---
+applications:
+- name: whats_my_ip
+  memory: 128MB
+  buildpack: python_buildpack
+  command: python whats_my_ip.py
+  host: whats-my-ip
